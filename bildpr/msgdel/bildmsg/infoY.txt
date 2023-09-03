@@ -1,0 +1,664 @@
+┌─[deliex-sys@parrot]─[~/Desktop/Programmsdel]
+└──╼ $python3 startprog.py 
+
+
+ <.DEL-Programms/: 
+ >>>  help
+ <.DEL-Programms/: 
+ >>>  help -l
+
+
+ 
+  Console (Консольные программы. )   &/ com  
+ 
+ 
+  GRF     (Графические программы.)   &/ grf  
+ 
+ 
+  MSG DEL (Адаптивные программы. )   &/ msg  
+ 
+ 
+  Назад   (Назад в систему.      )   &/ cd -l 
+ 
+
+
+ <.DEL-Programms/: 
+ >>>  msg
+
+
+
+
+ <.DEL-Programms/msg: 
+ >>>  help
+
+
+ 
+  YADER.DEL        &/ YADER  
+ 
+ 
+  WEB.DEL          &/ WEB    
+ 
+ 
+  Назад в систему  &/ cd -l   
+ 
+
+
+ <.DEL-Programms/msg: 
+ >>>  WEB
+
+
+
+  Если программы не запускаются и выдают ошибку то нужно загрузить к ним компоненты в ручную, обращатся с такими вопросами к Администратору в Телеграм
+И да системму лучше запускать на линукс. 
+
+ 
+ Для продолжения необходимо подтвердить вход 
+Войдите в системму
+ Ваш log   :     admin
+Выполнено 
+ Ваш ключ индитификации   :    admin
+ Выполнено 
+Вход в системму разрешон
+Войдите в консоль своей OS на линукс и запустите сервер командой 
+
+   python3 -m http.server --cgi   
+
+ После чего перейдите по ссылки в крг.скобочках 'Пример: (http://0.0.0.0:8000)'
+
+
+ <.DEL-Programms/msg: 
+ >>>  help -l
+ <.DEL-Programms/msg: 
+ >>>  help
+
+
+ 
+  YADER.DEL        &/ YADER  
+ 
+ 
+  WEB.DEL          &/ WEB    
+ 
+ 
+  Назад в систему  &/ cd -l   
+ 
+
+
+ <.DEL-Programms/msg: 
+ >>>  YADER
+
+
+       Starting Yader
+       Loading
+
+       Yader v/1.0 
+ 
+
+          Для запуска <Y> введите            'start-<y>'  
+
+          Для полной устоновки <y> введите   'update-<y>'  
+
+          Для обновления <y> введите         'upgrade-<y>' 
+ 
+
+          Полный вход в систему              'start-upgrade.<y>' 
+
+
+          Перезагрузится в OS.del            'reboot/Os-del'
+
+
+ 0?/: 
+ >>>  start-<y>   
+
+       Загрузка...  
+
+       Подключение к сети Del.sys...  
+
+       Успешно. 
+ 
+
+       Для входа введите 'Users-<y>'. 
+ 
+ 0?/: 
+ >>>  Users-<y>
+
+       Загрузка...  
+
+   Вход выполнен успешно. 
+
+ <Y>?/: 
+ >>>  help
+
+
+       Yader-sys        (Работа с ядерным арсеналом) [ОПАСНО].
+       Activity-<y>     (Активация <y>.del.)
+       Grafix.<y>       (Вход в графический интерфейс.)
+
+
+ <Y>?/: 
+ >>>  Yader-sys
+Start config update
+Traceback (most recent call last):
+  File "/home/deliex-sys/Desktop/Programmsdel/startprog.py", line 22, in <module>
+    from bildpr.msgdel.startmsg import *
+  File "/home/deliex-sys/Desktop/Programmsdel/bildpr/msgdel/startmsg.py", line 24, in <module>
+    from bildpr.msgdel.bildmsg.Yader import *
+  File "/home/deliex-sys/Desktop/Programmsdel/bildpr/msgdel/bildmsg/Yader.py", line 159, in <module>
+    import PySimpleGUI as sg
+ModuleNotFoundError: No module named 'PySimpleGUI'
+┌─[✗]─[deliex-sys@parrot]─[~/Desktop/Programmsdel]
+└──╼ $pip install PySimpleGUI
+ERROR: Introspect error on :1.438:/modules/kwalletd5: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+WARNING: Keyring is skipped due to an exception: Failed to open keyring: org.freedesktop.DBus.Error.ServiceUnknown: The name :1.438 was not provided by any .service files.
+Collecting PySimpleGUI
+  Downloading PySimpleGUI-4.60.5-py3-none-any.whl (512 kB)
+     |████████████████████████████████| 512 kB 953 kB/s 
+Installing collected packages: PySimpleGUI
+Successfully installed PySimpleGUI-4.60.5
+┌─[deliex-sys@parrot]─[~/Desktop/Programmsdel]
+└──╼ $python3 startprog.py 
+
+
+ <.DEL-Programms/: 
+ >>>  help
+ <.DEL-Programms/: 
+ >>>  help -l
+
+
+ 
+  Console (Консольные программы. )   &/ com  
+ 
+ 
+  GRF     (Графические программы.)   &/ grf  
+ 
+ 
+  MSG DEL (Адаптивные программы. )   &/ msg  
+ 
+ 
+  Назад   (Назад в систему.      )   &/ cd -l 
+ 
+
+
+ <.DEL-Programms/: 
+ >>>  msg
+
+
+
+
+ <.DEL-Programms/msg: 
+ >>>  help
+
+
+ 
+  YADER.DEL        &/ YADER  
+ 
+ 
+  WEB.DEL          &/ WEB    
+ 
+ 
+  Назад в систему  &/ cd -l   
+ 
+
+
+ <.DEL-Programms/msg: 
+ >>>  YADER
+
+
+       Starting Yader
+       Loading
+
+       Yader v/1.0 
+ 
+
+          Для запуска <Y> введите            'start-<y>'  
+
+          Для полной устоновки <y> введите   'update-<y>'  
+
+          Для обновления <y> введите         'upgrade-<y>' 
+ 
+
+          Полный вход в систему              'start-upgrade.<y>' 
+
+
+          Перезагрузится в OS.del            'reboot/Os-del'
+
+
+ 0?/: 
+ >>>  start-<y>
+
+       Загрузка...  
+
+       Подключение к сети Del.sys...  
+
+       Успешно. 
+ 
+
+       Для входа введите 'Users-<y>'. 
+ 
+ 0?/: 
+ >>>  Users-<y>
+
+       Загрузка...  
+
+   Вход выполнен успешно. 
+
+ <Y>?/: 
+ >>>  help
+
+
+       Yader-sys        (Работа с ядерным арсеналом) [ОПАСНО].
+       Activity-<y>     (Активация <y>.del.)
+       Grafix.<y>       (Вход в графический интерфейс.)
+
+
+ <Y>?/: 
+ >>>  Yader-sys
+Start config update
+Traceback (most recent call last):
+  File "/home/deliex-sys/Desktop/Programmsdel/startprog.py", line 22, in <module>
+    from bildpr.msgdel.startmsg import *
+  File "/home/deliex-sys/Desktop/Programmsdel/bildpr/msgdel/startmsg.py", line 24, in <module>
+    from bildpr.msgdel.bildmsg.Yader import *
+  File "/home/deliex-sys/Desktop/Programmsdel/bildpr/msgdel/bildmsg/Yader.py", line 164, in <module>
+    from progress.bar import IncrementalBar
+ModuleNotFoundError: No module named 'progress'
+┌─[✗]─[deliex-sys@parrot]─[~/Desktop/Programmsdel]
+└──╼ $pip install progress
+ERROR: Introspect error on :1.448:/modules/kwalletd5: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+WARNING: Keyring is skipped due to an exception: Failed to open keyring: org.freedesktop.DBus.Error.ServiceUnknown: The name :1.448 was not provided by any .service files.
+Collecting progress
+  Downloading progress-1.6.tar.gz (7.8 kB)
+Building wheels for collected packages: progress
+  Building wheel for progress (setup.py) ... done
+  Created wheel for progress: filename=progress-1.6-py3-none-any.whl size=9630 sha256=5970e313d9afdbffa606ed29cfaa9da434fc431c9d8704412b39023beaae662c
+  Stored in directory: /home/deliex-sys/.cache/pip/wheels/4c/9b/0a/a78ff56725af3ef70792f9ed0f8dbbc4c0315edc62cbc4a6b8
+Successfully built progress
+Installing collected packages: progress
+Successfully installed progress-1.6
+┌─[deliex-sys@parrot]─[~/Desktop/Programmsdel]
+└──╼ $python3 startprog.py 
+
+
+ <.DEL-Programms/: 
+ >>>  help -l
+
+
+ 
+  Console (Консольные программы. )   &/ com  
+ 
+ 
+  GRF     (Графические программы.)   &/ grf  
+ 
+ 
+  MSG DEL (Адаптивные программы. )   &/ msg  
+ 
+ 
+  Назад   (Назад в систему.      )   &/ cd -l 
+ 
+
+
+ <.DEL-Programms/: 
+ >>>  msg
+
+
+
+
+ <.DEL-Programms/msg: 
+ >>>  YADER
+
+
+       Starting Yader
+       Loading
+
+       Yader v/1.0 
+ 
+
+          Для запуска <Y> введите            'start-<y>'  
+
+          Для полной устоновки <y> введите   'update-<y>'  
+
+          Для обновления <y> введите         'upgrade-<y>' 
+ 
+
+          Полный вход в систему              'start-upgrade.<y>' 
+
+
+          Перезагрузится в OS.del            'reboot/Os-del'
+
+
+ 0?/: 
+ >>>  start-<y>
+
+       Загрузка...  
+
+       Подключение к сети Del.sys...  
+
+       Успешно. 
+ 
+
+       Для входа введите 'Users-<y>'. 
+ 
+ 0?/: 
+ >>>  Users-<y>
+
+       Загрузка...  
+
+   Вход выполнен успешно. 
+
+ <Y>?/: 
+ >>>  help
+
+
+       Yader-sys        (Работа с ядерным арсеналом) [ОПАСНО].
+       Activity-<y>     (Активация <y>.del.)
+       Grafix.<y>       (Вход в графический интерфейс.)
+
+
+ <Y>?/: 
+ >>>  Yader-sys
+Start config update
+Загрузка системы |████████████████████████████████| 10/10
+Системма запущена и готова к запуску всех подключеных ракет. По окончанию загрузке будет запущено 5 ракет кординаты США> Россия> Япония> <<< Космическая станция NATO-RS/855634228777654456231197456334.
+Для подробной информации перейдите [  https://www.n2yo.com/satellite/?s=25544  ].
+Подготовка...
+[----------------------------------------]
+Подключение к станции...
+[----------------------------------------]
+Запуск консоли для обозревания решений...
+
+[Подготовка программного обеспечения <Работает>]
+[----------------------------------------]
+[Вход в системму.]
+[----------------------------------------]
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-controler 23.0
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-controler 25.0
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-controler 28.0
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-controler 28.4
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-controler 38.5
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-system 32.bit
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-system-bild 42335
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-system-controler 23.0 - 38.5
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-end yres-php-html-python
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-end yres-php
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-end yres-html
+C:-Users-New-AppData-Local-Programs-Deliex.del-libGLESv2.dll -index-delprint-end yres-python
+
+
+
+
+
+
+
+
+ YADER?/: 
+ >>>  Help
+
+
+       1546 CIO       (Ядерный арсенал в США.)
+       GPS            (Расположение точек входа) [ОПАСНО].
+       Spase-NATO     (Подключение к NATO.)
+       Console        (Работа в консольном режиме.)
+       Start-Y        (Запуск и подготовка.)
+
+
+ YADER?/: 
+ >>>  GPS
+
+
+  Введите Страну и город запуска: Россия Москва
+  Введите номер станции: 332
+  Введите кординаты и скорость: 000.000.000 000.000.000 70000-км
+
+
+
+
+С места запуска Россия Москва
+
+
+Номер станции 332
+
+
+Место удара 000.000.000 000.000.000 70000-км
+
+
+ YADER?/: 
+ >>>  Start-Y
+
+
+С места запуска Россия Москва
+Номер станции 332
+Место удара 000.000.000 000.000.000 70000-км
+
+       Loger - 157 : Radius-5000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 172 : Radius-53000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 178 : Radius-7000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 182 : Radius-1000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 134 : Radius-9000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 432 : Radius-100.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 122 : Radius-77000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 322 : Radius-43000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 144 : Radius-1200.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 452 : Radius-6000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 123 : Radius-67000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 344 : Radius-4000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+       Loger - 234 : Radius-67000.KM,   (Запуск > [Start-Y/Loger/'Номер станции.'])
+
+
+ YADER?/: 
+ >>>  Start-Y/Loger/322
+
+
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ >>> Выполнено.
+ ['Подключение к спутнику', 'Выполнение запуска', 'Запуск', 1, 2, 3, 'Start', 'Speed 15773-km', 'Вывод чек листа', 'Uplink (MHz): 145.825Downlink (MHz): 145.825Beacon (MHz): Mode: 1200bps AFSKCall sign: RS0ISS ARISSStatus: Active']
+ YADER?/: 
+ >>>  Help
+
+
+       1546 CIO       (Ядерный арсенал в США.)
+       GPS            (Расположение точек входа) [ОПАСНО].
+       Spase-NATO     (Подключение к NATO.)
+       Console        (Работа в консольном режиме.)
+       Start-Y        (Запуск и подготовка.)
+
+
+ YADER?/: 
+ >>>  ^C
+
+
